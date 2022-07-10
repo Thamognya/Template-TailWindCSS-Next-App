@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Home: NextPage = () => {
     return (
         <>
-            <h1 className="text-xl">Hello {'==>'}</h1>
+            <h1 className="text-3xl">Hello tmp text {'==>'}</h1>
         </>
     )
 }
