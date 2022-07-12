@@ -5,7 +5,6 @@
     "license": "AGPL-3.0-or-later",
     "private": true,
     "scripts": {
-        "predeploy": "npm run build && npm run export",
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
