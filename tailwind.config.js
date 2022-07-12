@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    darkMode: 'class',
     content: [
         './pages/**/*.{js,ts,jsx,tsx}',
         './components/**/*.{js,ts,jsx,tsx}'
@@ -9,7 +8,11 @@ module.exports = {
         fontFamily: {
             fira: ['Fira Code']
         },
-        extend: {}
+        extend: {
+            height: {
+                'half-screen': '50vh'
+            }
+        }
     },
     plugins: []
 }
